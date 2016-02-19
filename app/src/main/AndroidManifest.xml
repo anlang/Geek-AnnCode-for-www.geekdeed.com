@@ -15,6 +15,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="cn.anline.qrcode.QRcodeIndexActivity"
+            android:theme="@style/Base.Theme.AppCompat.Dialog" />
+        <activity android:name="cn.anline.qrcode.ScannerActivity" />
+        <activity android:name="cn.anline.qrcode.ResultActivity"></activity>
     </application>
 
 </manifest>
